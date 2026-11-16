@@ -1,10 +1,5 @@
 body{
-background-image: url(images.jpeg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-min-height: 100vh;
-text-align: left;
+background-color: bisque;
 }
 
 .a1 {
@@ -72,4 +67,30 @@ background-color: white;
 #b3{
     color: brown;
     border: 1px solid pink;
+}
+
+#block{
+    border: 1px solid red;
+    display: block;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+#text1{
+    border: 1px solid blue;
+    color: green;
+    display: inline;
+}
+
+#text2{
+    border: 1px solid blue;
+    color: green;
+    display: inline;
+}
+
+#text3{
+    border: 1px solid blue;
+    color: green;
+    display: inline;
 }
