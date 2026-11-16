@@ -1,0 +1,64 @@
+
+body {
+    background: #f5d900;
+    font-family: Arial;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 20px 40px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    background: #00a5b5;
+    border: 2px solid black;
+}
+
+.container div {
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.purple {
+    background: purple;
+}
+
+.green {
+    background: lime;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}

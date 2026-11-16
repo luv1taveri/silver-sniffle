@@ -71,10 +71,9 @@ background-color: white;
 
 #block{
     border: 1px solid red;
-    display: block;
+    display: space-between;
     margin: 10px;
     width: 200px;
-    height: 100px;
 }
 
 #text1{
