@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    width: 220px;
+    height: 110px;
+}
+
+.container div {
+    background: #005dde;
+    border: 1px solid white;
+    color: white;
+    flex: 1;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.columnreverse {
+    flex-direction: column-reverse;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.flexstart {
+    align-items: flex-start;
+}
+
+.flexend {
+    align-items: flex-end;
+}
+
+.center {
+    align-items: center;
+}
+
+.flexstart div,
+.flexend div,
+.center div {
+    flex: none;
+    width: 68px;
+}
+
+.flexstart div:nth-child(1),
+.flexend div:nth-child(1),
+.center div:nth-child(1) {
+    height: 50px;
+}
+
+.flexstart div:nth-child(2),
+.flexend div:nth-child(2),
+.center div:nth-child(2) {
+    height: 90px;
+}
+
+.flexstart div:nth-child(3),
+.flexend div:nth-child(3),
+.center div:nth-child(3) {
+    height: 65px;
+}
