@@ -58,3 +58,18 @@ background-color: white;
     margin: 10px;
     padding: 20px;
 }
+
+#b1{
+    color: aqua;
+    border: 1px solid red;
+}
+
+#b2{
+    color: blueviolet;
+    border: 1px solid blue;
+}
+
+#b3{
+    color: brown;
+    border: 1px solid pink;
+}
