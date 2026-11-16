@@ -1,17 +1,14 @@
-
 body {
-    background: #f5d900;
+    background: #e39d9d;
     font-family: Arial;
     text-align: center;
 }
-
 .grid {
     display: grid;
-    grid-template-columns: 300px 300px;
-    gap: 20px 40px;
+    grid-template-columns: 300px;
+    gap: 10px 20px;
     justify-content: center;
 }
-
 .container {
     display: flex;
     align-items: center;
@@ -20,45 +17,38 @@ body {
     background: #00a5b5;
     border: 2px solid black;
 }
-
 .container div {
     width: 35px;
     height: 35px;
     border: 2px solid black;
 }
-
 .yellow {
     background: yellow;
+    margin: 5px;
 }
-
 .purple {
     background: purple;
+    margin: 5px;
 }
-
 .green {
     background: lime;
+    margin: 5px;
 }
-
 .start {
     justify-content: flex-start;
 }
-
 .end {
     justify-content: flex-end;
 }
-
 .center {
     justify-content: center;
 }
-
 .around {
     justify-content: space-around;
 }
-
 .between {
     justify-content: space-between;
 }
-
 .evenly {
     justify-content: space-evenly;
 }
