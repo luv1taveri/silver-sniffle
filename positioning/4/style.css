@@ -1,0 +1,23 @@
+#elem1, #elem2, #elem3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+#elem1 {
+    left: 50px;
+    top: 50px;
+    background-color: rgb(241, 106, 106)
+}
+
+#elem2 {
+    left: 110px;
+    top: 110px;
+    background-color: rgb(137, 137, 239)
+}
+
+#elem3 {
+    left: 170px;
+    top: 170px;
+    background-color: rgb(151, 230, 151)
+}
