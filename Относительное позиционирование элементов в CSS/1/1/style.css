@@ -21,3 +21,17 @@
     margin-left: 180px;
 	background-color: #4DEE99;
 }
+#parent{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+#child{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border: #4DEE99 solid 1px;
+	top: 15px;
+	left: 15px;
+}
