@@ -1,0 +1,26 @@
+.parent {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.child {
+    width: 100px;
+    height: 60px;
+    border: 1px solid green;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    margin-right: 20px;
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
