@@ -444,3 +444,68 @@
     border: 1px solid green;
     box-sizing: border-box;
 }
+
+.box26 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+
+.item26 {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+
+.elem26 {
+    align-self: flex-end;
+}
+
+.box27 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 900px;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+
+.item27 {
+    width: 120px;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+
+.elem27 {
+    align-self: center;
+}
+
+.box28 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 900px;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+
+.item28 {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+
+.elem28 {
+    align-self: center;
+}
