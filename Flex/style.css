@@ -510,3 +510,24 @@
     align-self: center;
 }
 
+.box29 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 900px;
+	height: 400px;
+	border: 1px solid red;
+    margin: 0 auto 30px;
+}
+
+.item29 {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+.elem {
+	order: 1;
+	border: 1px solid red;
+}
