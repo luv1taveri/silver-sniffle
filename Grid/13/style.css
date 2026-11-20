@@ -1,8 +1,8 @@
 #parent {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-	height: auto;
-	width: 400px;
+	height: 200px;
+	width: 600px;
 	padding: 10px;
 	border: 2px solid #696989;
 }
@@ -11,17 +11,17 @@
 	border: 1px solid #696989;
 }
 #elem1 {
-	grid-row: 1 / 2;
+	grid-row: 1 / 5;
 }
 #elem2 {
-	grid-row: 2 / 3;
+	grid-row: 2 / 1;
 }
 #elem3 {
-	grid-row: 1 / 2;
+	grid-row: 3 / 2;
 }
 #elem4 {
-	grid-row: 2 / 5;
+	grid-row: 4 / 3;
 }
 #elem5 {
-    grid-row: 3 / 3;
+    grid-row: 5 / 4;
 }
