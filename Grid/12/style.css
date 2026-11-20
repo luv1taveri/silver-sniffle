@@ -1,6 +1,6 @@
 #parent {
 	display: grid;
-	grid-template: 1fr 2fr / 4fr 2fr 2fr 4fr ;
+	grid-template: 1fr 1fr 2fr 4fr / 1fr 4fr 8fr ;
 	border: 2px solid #696989;
 	padding: 10px;
 	width: 900px;
