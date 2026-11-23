@@ -1,0 +1,10 @@
+.task-1 {
+    width: 300px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.task-1 td {
+    width: 150px;
+    border: 1px solid black;
+}
