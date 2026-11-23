@@ -1,0 +1,5 @@
+#txt {
+    width: 200px;
+    border: 1px red solid;
+    white-space: nowrap;
+}
