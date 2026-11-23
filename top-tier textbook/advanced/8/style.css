@@ -1,10 +1,14 @@
 #txt {
-    width: 200px;
+    width: 300px;
     height: 200px;
     border: solid red 1px;
-    overflow-y: hidden;
 }
 
 #txt:hover{
     height: auto;
+}
+
+#txt > img{
+    height: 500px;
+    width: 500px;
 }
