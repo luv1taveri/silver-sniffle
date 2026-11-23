@@ -1,0 +1,5 @@
+div {
+    width: 300px;
+    border: 1px red solid;
+    hyphens: auto;
+}
