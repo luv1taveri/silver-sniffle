@@ -1,0 +1,19 @@
+.text1::first-letter{
+    color: red;
+    font-size: 27px;
+}
+
+.text2::first-letter{
+    color: red;
+    font-size: 27px;
+}
+
+.text3::first-letter{
+    color: red;
+    font-size: 27px;
+}
+
+.text4::first-letter{
+    color: red;
+    font-size: 27px;
+}
