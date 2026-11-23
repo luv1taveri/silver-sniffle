@@ -57,3 +57,18 @@
     text-align: right;
     vertical-align: middle;
 }
+
+.task-5 {
+    border: 1px solid #003300;
+    border-spacing: 15px;
+}
+
+.task-5 td {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #003300;
+    background-color: #0b9d6c;
+    color: white;
+    text-align: right;
+    vertical-align: bottom;
+}
