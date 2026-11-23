@@ -1,5 +1,11 @@
-p {
+.task-1 {
     text-decoration-line: underline;
     text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+.task-2 {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
     text-decoration-color: red;
 }
