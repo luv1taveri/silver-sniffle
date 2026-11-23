@@ -1,0 +1,11 @@
+.text1{
+    text-transform: uppercase;
+}
+
+span{
+    text-transform: uppercase;
+}
+
+.text3{
+    text-transform: capitalize;
+}
