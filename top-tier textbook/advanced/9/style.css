@@ -5,3 +5,7 @@
     overflow-x: hidden;
     text-overflow: ellipsis;
 }
+
+#txt:hover{
+    white-space: normal;
+}
