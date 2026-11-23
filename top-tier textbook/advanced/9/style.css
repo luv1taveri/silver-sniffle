@@ -3,4 +3,5 @@
     border: 1px red solid;
     white-space: nowrap;
     overflow-x: hidden;
+    text-overflow: ellipsis;
 }
