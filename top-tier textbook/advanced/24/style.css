@@ -4,5 +4,5 @@
 
 .task-1 h2::before {
     counter-increment: heading-counter;
-    content: counter(heading-counter) " ";
+    content: "№" counter(heading-counter) " ";
 }
