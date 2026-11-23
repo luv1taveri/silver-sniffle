@@ -3,3 +3,11 @@
     white-space: nowrap;
 
 }
+
+#txt1{
+    white-space: pre-wrap;
+}
+
+#txt2{
+    white-space: pre-line;
+}
