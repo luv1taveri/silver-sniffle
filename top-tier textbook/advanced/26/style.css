@@ -3,3 +3,9 @@
     height: 100px;
     border: 1px solid black;
 }
+
+.task-2 {
+    width: calc(50% + 200px);
+    height: 100px;
+    border: 1px solid black;
+}
