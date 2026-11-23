@@ -1,3 +1,19 @@
-p{
-    letter-spacing:  3px;
+#text1{
+    letter-spacing: 1px;
+}
+
+#text2{
+    letter-spacing: 3px;
+}
+
+#text3{
+    letter-spacing: -1px;
+}
+
+#text4{
+    word-spacing: 3px;
+}
+
+#text5{
+    word-spacing: 0px;
 }
