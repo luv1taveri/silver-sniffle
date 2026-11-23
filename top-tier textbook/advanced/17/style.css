@@ -1,0 +1,4 @@
+.task-1 ::selection {
+    background-color: green;
+    color: white;
+}
