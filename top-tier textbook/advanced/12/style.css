@@ -15,3 +15,9 @@
     text-decoration-style: dashed;
     text-decoration-color: red;
 }
+
+.task-4 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: red;
+}
