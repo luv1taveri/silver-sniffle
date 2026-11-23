@@ -1,3 +1,17 @@
 .task-1 li::after {
     content: '.';
 }
+
+.task-2 span {
+    position: relative;
+}
+
+.task-2 span::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
