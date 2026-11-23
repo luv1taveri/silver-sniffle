@@ -2,7 +2,7 @@
     width: 300px;
     height: 200px;
     border: solid red 1px;
-    overflow-y: auto;
+    overflow-y: auto; 
 }
 
 #txt:hover{
