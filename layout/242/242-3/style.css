@@ -1,0 +1,43 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 30px auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+#news, #about, #interesting {
+	border: 1px solid #999;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-top: 0;
+	color: blue;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.35;
+	text-align: justify;
+}
+
+#more1, #more2 {
+	text-align: right;
+	margin-bottom: 0;
+}
+
+#more1 a, #more2 a {
+	color: blue;
+	text-decoration: none;
+}
+
+#more1 a:hover, #more2 a:hover {
+	text-decoration: underline;
+}

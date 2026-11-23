@@ -1,17 +1,32 @@
-.parent {
-    width: 600px;
-    padding: 20px;
-    margin: 20px auto;
-    border: 1px solid black;
-    text-align: justify;
+#parent {
+	width: 600px;
+	padding: 20px;
+	margin: 20px auto;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 1.35;
 }
 
-.child {
-    float: right;
-    width: 110px;
-    height: 75px;
-    margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border: 1px solid green;
+#left {
+	float: left;
+	width: 50%;
+}
+
+#right {
+	float: left;
+	width: 50%;
+}
+
+#img1 {
+	float: right;
+	width: 120px;
+	margin: 8px 10px 8px 10px;
+}
+
+#child {
+	float: right;
+	width: 100px;
+	height: 70px;
+	margin: 4px 0 4px 10px;
+	border: 1px solid rgb(0, 0, 0);
 }
