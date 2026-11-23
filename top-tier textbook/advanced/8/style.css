@@ -2,6 +2,7 @@
     width: 300px;
     height: 200px;
     border: solid red 1px;
+    overflow-y: auto;
 }
 
 #txt:hover{
@@ -12,3 +13,4 @@
     height: 500px;
     width: 500px;
 }
+
