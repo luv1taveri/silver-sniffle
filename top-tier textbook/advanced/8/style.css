@@ -1,17 +1,7 @@
 #txt {
-    width: 300px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: solid red 1px;
     overflow-y: scroll; 
     overflow-x: hidden;
 }
-
-#txt:hover{
-    height: auto;
-}
-
-#txt > img{
-    height: 500px;
-    width: 500px;
-}
-
