@@ -7,4 +7,5 @@
     width: 1000px;
     column-count: 4;
     column-gap: 30px;
+    column-rule: 1px dotted gray;   
 }
