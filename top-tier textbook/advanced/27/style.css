@@ -1,0 +1,5 @@
+.task-1 {
+    width: max(300px, 50%);
+    height: 100px;
+    border: 1px solid black;
+}
