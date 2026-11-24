@@ -6,8 +6,8 @@ body{
 }
 
 input::placeholder{
-    color: rgb(0, 80, 0); 
+    color: rgb(169, 255, 169); 
 }
 textarea::placeholder{
-    color: rgb(0, 80, 0);
+    color: rgb(169 255 169);
 }
