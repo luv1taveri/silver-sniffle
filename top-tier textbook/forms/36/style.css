@@ -1,3 +1,13 @@
+body{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
 input::placeholder{
     color: rgb(0, 80, 0); 
+}
+textarea::placeholder{
+    color: rgb(0, 80, 0);
 }
