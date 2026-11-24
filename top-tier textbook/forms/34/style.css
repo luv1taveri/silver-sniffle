@@ -1,5 +1,5 @@
 textarea{
-    resize: horizontal;
+    resize: vertical;
     width: 200px;
     height: 200px;
 }
