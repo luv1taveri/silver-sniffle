@@ -4,3 +4,9 @@ input{
     border: 1px black solid;
     border-radius: 2px;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
