@@ -1,0 +1,18 @@
+@keyframes move {
+	from {
+		margin-left: 0px;
+	}
+	to {
+		margin-left: 400px;
+	}
+}
+
+#elem {
+	animation-name: move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	border: 1px solid rgb(255, 0, 0);
+	width: 50px;
+	height: 50px;
+}
