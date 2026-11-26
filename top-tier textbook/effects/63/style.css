@@ -16,3 +16,75 @@
 	width: 50px;
 	height: 50px;
 }
+
+@keyframes color {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: red;
+    }
+}
+
+#elem2 {
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes move2 {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(200px, 0);
+    }
+    50% {
+        transform: translate(200px, 200px);
+    }
+    75% {
+        transform: translate(0, 200px);
+    }
+}
+#elem3 {
+    animation-name: move2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+    margin-top: 200px;
+}
+
+#elem4 {
+    animation-name: move2, color;
+    animation-duration: 4s, 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+    margin-top: 200px;
+}
+
+@keyframes move3 {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-200px);
+    }
+}
+
+#elem5 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    margin-inline: auto;
+    animation: move3 2s ease-in-out infinite alternate;
+}
