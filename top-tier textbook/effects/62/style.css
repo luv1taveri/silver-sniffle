@@ -1,105 +1,78 @@
-#elem {
-    background: white;
-    border: 1px solid red;
-    width: 300px;
+#elem, #elem2, #elem3, #elem4, #elem5, #elem6 {
+    width: min(300px, 100%);
     height: 100px;
-    transition: background 1s ease-out;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
-#elem:hover {
-    background: red;
+
+#elem, #elem2 {
+    background: white;
+    transition: background-color 1s ease-out, color 1s ease-out;
 }
 
 #elem2 {
-    background: white;
-    border: 1px solid red;
-    width: 300px;
-    height: 100px;
-    transition: background 1s ease-in-out;
-    margin-top: 20px;
+    color: red;
 }
-#elem2:hover {
+
+#elem:hover, #elem2:hover {
     background: red;
+}
+
+#elem2:hover {
     color: white;
 }
 
-#elem3{
-    background: white;
-    border: 1px solid red;
-    width: 300px;
-    height: 100px;
-    transition: all 1s ease-in-out;
-    margin-top: 20px;
+#elem3, #elem4 {
+    transition: width 1s ease-out, margin-left 1s ease-out;
 }
+
 #elem3:hover {
     width: 100%;
 }
 
-#elem4{
-    background: white;
-    border: 1px solid red;
-    width: 300px;
-    height: 100px;
-    transition: all 2s ease-out;
-    margin-top: 20px;
-}
 #elem4:hover {
-    width: 30%;
-    margin-left: 30%;
-
+    width: 70%;
+    margin-left: 10%;
 }
 
-#elem5  {
-    background: white;
-    border: 1px solid red;
-    width: 300px;
-    height: 100px;
-    transition: all 2s ease 3s;
-    margin-top: 20px;
+#elem5 {
+    transition: width 1s ease-out 2s;
 }
+
 #elem5:hover {
-    width: 100%;
+    width: 70%;
 }
 
 #elem6 {
-    border: 1px solid red;
-    width: 300px;
-    height: 100px;
-    transition: width 10s cubic-bezier(.20, -0.4, 0, .81);
-    margin-top: 20px;
+    transition: width 3s cubic-bezier(.2, -.4, 0, .81);
 }
+
 #elem6:hover {
     width: 90%;
 }
 
-#elem7 {
-    width: 300px;
+#elem7, #elem8 {
+    width: min(300px, 100%);
     height: 30px;
     padding: 0 5px;
     border: 1px solid black;
     border-radius: 2px;
     box-sizing: border-box;
+    margin-bottom: 20px;
     transition: all 1s ease-out;
-    margin-top: 20px;
-}
-#elem7:focus {
-    width: 90%;
-    border: 1px solid blue;
-    color: blue;
 }
 
-#elem8 {
-    width: 300px;
-    height: 30px;
-    padding: 0 5px;
-    border: 1px solid black;
-    border-radius: 2px;
-    box-sizing: border-box;
-    transition: all 1s ease-out;
-    margin-top: 20px;
-}
-#elem8:focus {
-    border: 1px solid blue;
+#elem7:focus, #elem8:focus {
+    border-color: blue;
     color: blue;
-    box-shadow: 0 0 5px blue;
     outline: none;
+}
+
+#elem7:focus {
+    width: min(500px, 100%);
+}
+
+#elem8:focus {
+    box-shadow: 0 0 5px blue;
 }
