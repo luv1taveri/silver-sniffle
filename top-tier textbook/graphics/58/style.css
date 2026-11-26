@@ -1,0 +1,46 @@
+#elem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient(yellow, white);
+}
+
+#elem2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, yellow, white);
+}
+
+#elem3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-image: linear-gradient(to left, yellow, white);
+}
+
+#elem4 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom right, white, red);
+}
+
+#elem5 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, red, blue);
+}
+
+#elem6 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-image: linear-gradient(white 50%, red 50%);
+}
