@@ -1,0 +1,14 @@
+.example {
+    padding: 50px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    transition: transform 1s ease;
+}
+
+.example:hover .square {
+    transform: rotate(45deg);
+}
