@@ -1,0 +1,39 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+#elem {
+    margin-top: 0;
+    background-image: radial-gradient(#55d8f8, #007cb1);
+}
+
+#elem2 {
+    background-image: radial-gradient(at top, #55d8f8, #007cb1);
+}
+
+#elem3 {
+    background-image: radial-gradient(circle, #55d8f8, #007cb1);
+}
+
+#elem4 {
+    background-image: radial-gradient(ellipse, #55d8f8, #007cb1);
+}
+
+#elem5 {
+    background-image: radial-gradient(closest-side, #55d8f8, #007cb1);
+}
+
+#elem6 {
+    background-image: radial-gradient(closest-side at 30px 30px, #55d8f8, #007cb1);
+}
+
+#elem7 {
+    background-image: radial-gradient(#333333 10%, white 30%, white 40%, green 50%);
+}
+
+#elem8 {
+    background-image: radial-gradient(green 30%, white 30%, white 45%, green 45%);
+}
