@@ -1,0 +1,30 @@
+#elem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: repeating-linear-gradient(to right, white 0px, white 5px, black 5px, black 10px);
+}
+
+#elem2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-image: repeating-linear-gradient(white 0px, white 5px, black 5px, black 10px);
+}
+
+#elem3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-image: repeating-linear-gradient(white 0px, white 5px, black 1px, black 6px);
+}
+
+#elem4 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-image: repeating-linear-gradient(45deg, white 0px, white 5px, red 5px, rgb(255, 0, 0) 10px);
+}
