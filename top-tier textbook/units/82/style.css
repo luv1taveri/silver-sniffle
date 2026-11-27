@@ -1,0 +1,27 @@
+/* 1 */
+main {
+	margin: 16px auto;
+}
+
+h1 {
+	font-size: 2em;
+}
+p {
+	font-size: 1em;
+}
+
+/* 2 */
+main {
+	margin: 32px auto;
+}
+
+h1 {
+	font-size: 1em;
+}
+div {
+	font-size: 0.5em;
+	margin-bottom: 1em;
+}
+p {
+	font-size: 1.25em;
+}
