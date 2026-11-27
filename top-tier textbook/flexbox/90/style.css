@@ -1,0 +1,50 @@
+.parent {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    border: solid 1px green;
+}
+
+.elem1 {
+    flex-grow: 1;
+}
+.elem2 {
+    flex-grow: 1;
+}
+.elem3 {
+    flex-grow: 1;
+}
+.elem4 {
+    flex-grow: 1;
+}
+.elem5 {
+    flex-grow: 1;
+}
+.elem6 {
+    flex-grow: 1;
+}
+.elem7 {
+    flex-grow: 1;
+}
+.elem8 {
+    flex-grow: 1;
+}
+.elem9 {
+    flex-grow: 1;
+}
+.elem10 {
+    flex-grow: 1;
+}
+.elem11 {
+    flex-grow: 1;
+}
+.elem12 {
+    flex-grow: 1;
+}
